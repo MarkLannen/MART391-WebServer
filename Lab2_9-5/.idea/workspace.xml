@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeae7759-734f-4138-a2b8-fe483d4da769" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/image/italy-flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/image/us_british-flags.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_9-5/styles.css" beforeDir="false" />
-    </list>
+    <list default="true" id="eeae7759-734f-4138-a2b8-fe483d4da769" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,7 @@
       <workItem from="1567771206034" duration="421000" />
       <workItem from="1567794347488" duration="946000" />
       <workItem from="1567865145453" duration="621000" />
-      <workItem from="1568075029723" duration="1040000" />
+      <workItem from="1568075029723" duration="2053000" />
     </task>
     <servers />
   </component>
