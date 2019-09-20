@@ -1,0 +1,33 @@
+HW-3 Mark Lannen
+
+6. Query to select all players: 
+
+SELECT UserName 
+FROM Players
+
+7. Valid username and password combinations
+
+WHERE Username = 1, 
+
+
+8.  Insert players
+
+INSERT INTO Players (UserName, Password, FirstName, LastName, Address, City, State, Phone,
+Email)
+VALUES('Dieguito', 'Diego', 'Maradonna', '123 el street', 'Buenos Aires', 'Argentina', '00 54 1223 337991', eldieguito@gmail.com', 
+CAST ('lsakjdfoiasgksdf' as varbinary(256))) 
+
+9. Update player information in table
+
+UPDATE Players SET FirstName = 'BillyJoe'
+WHERE UserName = 1
+
+10. Delete player info 
+
+DELET FROM Players
+WHERE UserName = 'Dieguito';
+
+11. Include queries to select a specific player...
+
+SELECT price FROM Items WHERE ItemName = 'ElfSkin';
+ 
