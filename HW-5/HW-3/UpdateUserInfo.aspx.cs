@@ -23,6 +23,8 @@ public partial class UpdateUserInfo : System.Web.UI.Page
 
         Users myUser = new Users(); // create instance of class
 
+        myUser.updateUser(userName, userID, firstName, lastName, phone, email);
+
         //String finalResult = myUser.GetUserData(UserID); // calling the method
 
         //lblMessage.Text = finalResult;

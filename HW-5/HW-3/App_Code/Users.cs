@@ -52,19 +52,20 @@ public class Users
     }
 
 
-    public int updateUser(string firstName, string lastName, string email, string phoneNumber, string userName, string UserID)
+    public int updateUser(string userName, string UserID, string firstName, string lastName, string phoneNumber, string email)
     {
         DBManager myDBManager = new DBManager();
         string myQuery = "spUpdateUser";
 
         SqlParameter[] myParameters = new SqlParameter[6];
-        myParameters[0] = new SqlParameter("firstName", firstName);
-        myParameters[1] = new SqlParameter("lastName", lastName);
-        myParameters[2] = new SqlParameter("email", email);
-        myParameters[3] = new SqlParameter("phoneNumber", phoneNumber);
-        myParameters[4] = new SqlParameter("userName", userName);
-        myParameters[5] = new SqlParameter("userID", UserID);
-
+        
+        myParameters[0] = new SqlParameter("userName", userName);
+        myParameters[1] = new SqlParameter("userID", UserID);
+        myParameters[2] = new SqlParameter("firstName", firstName);
+        myParameters[3] = new SqlParameter("lastName", lastName);
+        myParameters[4] = new SqlParameter("phoneNumber", phoneNumber);
+        myParameters[5] = new SqlParameter("email", email);
+        
         int rows = myDBManager.executeNonQuery(myQuery, myParameters);
         return rows;
     }
