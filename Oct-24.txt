@@ -1,0 +1,19 @@
+Oct. 24.
+SQL injection 
+- preventing with parameters
+-stored procedure queries also need to be paramaterized
+
+Cross scripting attacks
+-entering scripts inside text box or some sort of form control
+-HTML encoding. Not storing native script.
+
+XML 
+
+Server.MapPath
+
+Bind Data
+
+AJAX
+-Separate thread
+-ScripctManager
+-UpdatePanel

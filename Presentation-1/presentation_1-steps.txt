@@ -1,0 +1,7 @@
+1. Your project idea
+2. Specifications/Requirements
+3. Your functional/non-functional requirements
+4. Your design documents
+5. Provide a timeline for your project.
+6. Provide an estimate of how long it will take to complete your project overall
+7. Any progress

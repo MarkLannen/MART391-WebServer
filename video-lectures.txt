@@ -1,0 +1,70 @@
+MART391 Video lecture topics
+
+Sept 3:
+HTML
+CSS
+
+
+Sept. 5
+HTML5
+JavaScript
+jQuery
+CDNs
+Server Control
+Validations
+
+
+Sept. 10
+Audio only
+
+
+Sept. 12: 
+Captcha
+Calendar
+registration page
+validations
+Initial c# info
+
+
+Sept. 17:
+SQL queries
+SELECT
+INSERT
+UPDATE
+DELETE
+INNER JOIN
+WHERE 
+ORDER BY
+Create sql tables
+
+
+Sept. 19:
+Open script in sql server mgmt studio
+INNER JOIN
+stored procedures - precompiled sql statements - Parameters
+Export scripts. Right click on database > Tasks> Generate Scripts
+
+
+Week 5:
+Create classes to insert, update and delete items
+Create class that uses that class to insert, update and delete items
+Security
+Challenge: Make a class that allows INSERTS, UPDATES, DELETES and does SELECTS by calling a method. 
+Create an instance of the class and make a method. Abstract the 'myConnectionString'. Then all that needs to happen is to send in
+the query, ex: 'string myQuery= "spUdpateUser" and the parameters ex: SqlParameter[]...
+
+Then create a class for each table. Ex: User table - class that UPDATES users, INSERTS users, retrieve or get specific user or check the password.
+
+Start by creating 1 class for Users that generically does all the updates, inserts, deletes etc... 
+
+
+Oct. 10: 
+Security
+Cross scripting
+SQL injections
+Paramaterization
+SQL chaining
+Connection String/SQL Query wizard
+HTML encoding
+Data grid
+
