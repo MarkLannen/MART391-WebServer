@@ -26,13 +26,7 @@ public partial class _Default : System.Web.UI.Page
         string phone = txtPhone.Text;
         string email = txtEmail.Text;
 
-
-
         Users myUser = new Users(); // create instance of class
-
-        //String finalResult = myUser.GetUserData(UserID); // calling the method
-
-        //lblMessage.Text = finalResult;
 
         int rows = myUser.insertUser(userName, password, firstName, lastName, phone, email);
 

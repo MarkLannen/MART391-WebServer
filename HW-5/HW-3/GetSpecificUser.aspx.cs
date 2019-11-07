@@ -20,7 +20,6 @@ public partial class GetSpecificUser : System.Web.UI.Page
         string result = myUsers.getSpecificUser(userID);
 
         userTable.Text = result;
-
-
     }
 }
+

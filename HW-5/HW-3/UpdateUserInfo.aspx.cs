@@ -13,9 +13,12 @@ public partial class UpdateUserInfo : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        //int UserID = Int32.Parse(txtUserID.Text);
-        //string firstName = txtUserName.Text;
-        //string lastName = Password.Text;
+        string userName = txtUserName.Text;
+        string userID = txtUserID.Text;
+        string firstName = txtFirstName.Text;
+        string lastName = txtLastName.Text;
+        string phone = txtPhone.Text;
+        string email = txtEmail.Text;
 
 
         Users myUser = new Users(); // create instance of class

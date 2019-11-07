@@ -30,7 +30,6 @@ public class Users
 
         for (int i = 0; i < myDataSet.Tables[0].Rows.Count; i++)
         {
-
             finalResult += myDataSet.Tables[0].Rows[i]["firstName"] + " " + myDataSet.Tables[0].Rows[i]["lastName"] + "<br>";
         }
 
@@ -53,9 +52,7 @@ public class Users
     }
 
 
-
-
-    public int updateUser(int UserID, string firstName, string lastName)
+    public int updateUser(string firstName, string lastName, string email, string phoneNumber, string userName, string UserID)
     {
         DBManager myDBManager = new DBManager();
         string myQuery = "spUpdateUser";
@@ -71,9 +68,6 @@ public class Users
         int rows = myDBManager.executeNonQuery(myQuery, myParameters);
         return rows;
     }
-
-
-
 
 
     public int insertUser(string userName, string password, string firstName, string lastName, string phoneNumber, string email )
@@ -115,21 +109,4 @@ public class Users
         }
         return finalResult;
     }
-
-    //public int checkUsernamePassword(string userName, string password)
-    //{
-    //    DBManager myDBManager = new DBManager();
-    //    string myQuery = "spValidUserNamePassword";
-
-    //    SqlParameter[] myParameters = new SqlParameter[2];
-    //    myParameters[0] = new SqlParameter("userName", userName);
-    //    myParameters[1] = new SqlParameter("password", password);
-
-    //    DataSet myDataSet = myDBManager.createDataSet(myQuery, myParameters);
-
-    //    int rows = myDBManager.executeNonQuery(myQuery, myParameters);
-    //    return rows;
-
-    //}
-
 }
