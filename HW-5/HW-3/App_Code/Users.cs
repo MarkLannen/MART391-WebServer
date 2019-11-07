@@ -60,14 +60,19 @@ public class Users
         DBManager myDBManager = new DBManager();
         string myQuery = "spUpdateUser";
 
-        SqlParameter[] myParameters = new SqlParameter[3];
+        SqlParameter[] myParameters = new SqlParameter[6];
         myParameters[0] = new SqlParameter("firstName", firstName);
         myParameters[1] = new SqlParameter("lastName", lastName);
-        myParameters[2] = new SqlParameter("userID", UserID);
+        myParameters[2] = new SqlParameter("email", email);
+        myParameters[3] = new SqlParameter("phoneNumber", phoneNumber);
+        myParameters[4] = new SqlParameter("userName", userName);
+        myParameters[5] = new SqlParameter("userID", UserID);
 
         int rows = myDBManager.executeNonQuery(myQuery, myParameters);
         return rows;
     }
+
+
 
 
 

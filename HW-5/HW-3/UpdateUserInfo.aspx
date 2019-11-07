@@ -15,20 +15,7 @@
 <div class="container">
 
     <form ID="form1" runat="server" class="mt-5">
-    <%--<div class="form-group"> 
-        <div>
-            <p>User ID</p>
-            <%--<asp:TextBox ID="txtUserID" runat="server"> </asp:TextBox>--%>
-            <%--<p>First Name</p>--%>
-            <%--<asp:TextBox ID="txtFirstName" runat="server"> </asp:TextBox>--%>
-            <%--<p>Last Name</p>--%>
-            <%--<asp:TextBox ID="txtLastName" runat="server"> </asp:TextBox>--%>
-
-            <%--<asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click"/>--%>
-            <%--<p></p>--%>
-            
-        <%--</div>--%>
-<%--    </div>--%>
+    
 
     <h1 id="header1">Update Player Info</h1>
        
