@@ -10,6 +10,7 @@ public partial class CheckUserNamePassword : System.Web.UI.Page
     private readonly object txtUserID;
     private object txtFirstName;
     private object txtLastName;
+    private object lblMessage;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -18,19 +19,23 @@ public partial class CheckUserNamePassword : System.Web.UI.Page
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
         //int UserID = Int32.Parse(txtUserID.Text);
-        string firstName = txtUserName.Text;
-        string lastName = Password.Text;
+        string userName = txtUserName.Text;
+        string password = Password.Text;
 
 
-        Users myUser = new Users(); // create instance of class
+        Users myUser = new Users(); 
 
-        //String finalResult = myUser.GetUserData(UserID); // calling the method
+        int rows = myUser.ValidUsernamePassword(userName, password);
 
-        //lblMessage.Text = finalResult;
-
-        //int rows = myUser.updateUser(UserID, firstName, lastName);
-
-        //lblMessage.Text = "Rows affected: " + rows;
+        if (rows == 0)
+        {
+            validUsernamePasswordCheck.Text = "Registration failed";
+        }
+        else
+        {
+            validUsernamePasswordCheck.Text = "Registration successful!";
+        }
+        
 
     }
 }
