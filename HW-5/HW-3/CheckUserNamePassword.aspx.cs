@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -25,9 +26,9 @@ public partial class CheckUserNamePassword : System.Web.UI.Page
 
         Users myUser = new Users(); 
 
-        int rows = myUser.ValidUsernamePassword(userName, password);
+        DataSet rows = myUser.ValidUsernamePassword(userName, password);
 
-        if (rows == 0)
+        if (rows.Tables[0].Rows.Count == 0)
         {
             validUsernamePasswordCheck.Text = "Registration failed";
         }

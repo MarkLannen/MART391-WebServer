@@ -38,7 +38,7 @@ public class Users
 
     }
 
-    public int ValidUsernamePassword(string userName, string password)
+    public DataSet ValidUsernamePassword(string userName, string password)
     {
         DBManager myDBManager = new DBManager();
         string myQuery = "spValidUserNamePassword";
@@ -49,8 +49,7 @@ public class Users
 
         DataSet myDataSet = myDBManager.createDataSet(myQuery, myParameters);
 
-        int rows = myDBManager.executeNonQuery(myQuery, myParameters);
-        return rows; throw new NotImplementedException();
+        return myDataSet;
     }
 
 
