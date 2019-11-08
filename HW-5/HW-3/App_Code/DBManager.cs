@@ -12,7 +12,7 @@ using System.Web;
 public class DBManager
 {
     string myConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
-     SqlConnection myConnection;
+    SqlConnection myConnection;
 
     public DBManager()
     {
