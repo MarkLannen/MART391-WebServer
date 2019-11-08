@@ -111,17 +111,16 @@ public class Users
         return finalResult;
     }
 
-    public int deleteUser(string userID)
+    public int deleteUser(string userName)
     {
         DBManager myDBManager = new DBManager();
         string myQuery = "spDeleteUser";
 
         SqlParameter[] myParameters = new SqlParameter[1];
-        myParameters[0] = new SqlParameter("userID", userID);
+        myParameters[0] = new SqlParameter("userName", userName);
 
         int rows = myDBManager.executeNonQuery(myQuery, myParameters);
 
         return rows;
-
     }
 }
