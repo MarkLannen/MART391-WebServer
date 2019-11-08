@@ -14,20 +14,14 @@
     
     <form id="form1" runat="server">
         <div class="container">
-        <h1 class="mb-5 mt-3">Delete User by First and Last name</h1>
- 
-            <div class="form-row">
-            <div class="form-group col-md-6">
-                <asp:label runat="server" text="Username" ID="UsernameLabel" ></asp:label>
-            <asp:textbox runat="server" ID="txtUserName" CssClass="form-control"></asp:textbox>
-                    
-            </div>
-            <div class="form-group col-md-3">
-                <asp:label runat="server" text="Password" ID="PasswordLabel"></asp:label>
-                <asp:textbox runat="server" ID="Password" CssClass="form-control"></asp:textbox>
-            </div>
-          </div>
-            <div class="mt-3">
+            <h1 class="mb-5 mt-3">Delete User by User Name</h1>
+                 <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <asp:label runat="server" text="Username" ID="UsernameLabel" ></asp:label>
+                        <asp:textbox runat="server" ID="txtUserName" CssClass="form-control"></asp:textbox>                  
+                    </div>
+                </div>
+                <div class="mt-3">
                     <asp:Button ID="btnSubmit" runat="server" class="btn btn-primary btn-lg" Text="Delete" OnClick="btnSubmit_Click"/>
                 </div>
           </div>

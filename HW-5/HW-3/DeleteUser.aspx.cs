@@ -13,14 +13,12 @@ public partial class DeleteUser : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        //int UserID = Int32.Parse(txtUserID.Text);
-        string firstName = txtUserName.Text;
-        string lastName = Password.Text;
-
-
+        
+        string userName = txtUserName.Text;
+        
         Users myUser = new Users(); // create instance of class
 
-        //String finalResult = myUser.GetUserData(UserID); // calling the method
+        int rows = myUser.deleteUser(userName);
 
         //lblMessage.Text = finalResult;
 

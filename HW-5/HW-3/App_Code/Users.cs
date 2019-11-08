@@ -71,7 +71,7 @@ public class Users
     }
 
 
-    public int insertUser(string userName, string password, string firstName, string lastName, string phoneNumber, string email )
+    public int insertUser(string userName, string password, string firstName, string lastName, string phoneNumber, string email)
     {
         DBManager myDBManager = new DBManager();
         string myQuery = "spInsertUser";
@@ -109,5 +109,19 @@ public class Users
             "<td> " + myDataSet.Tables[0].Rows[i]["userName"] + "</td> " + myDataSet.Tables[0].Rows[i]["password"] + "</td></tr>" + "<br>";
         }
         return finalResult;
+    }
+
+    public int deleteUser(string userID)
+    {
+        DBManager myDBManager = new DBManager();
+        string myQuery = "spDeleteUser";
+
+        SqlParameter[] myParameters = new SqlParameter[1];
+        myParameters[0] = new SqlParameter("userID", userID);
+
+        int rows = myDBManager.executeNonQuery(myQuery, myParameters);
+
+        return rows;
+
     }
 }
