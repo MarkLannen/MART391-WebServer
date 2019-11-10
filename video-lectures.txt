@@ -1,5 +1,25 @@
 MART391 Video lecture topics
 
+Aug. 29 
+Intro to Visual Studio and web forms.
+HTML - attributes/tags
+forms
+Internet Information Services (IIS)
+Port 80 Default web port
+Object pooling
+asp.net controls 16:42
+	Get and Post
+	Button - button attributes
+Graphical User Interface
+	Event handler
+		Control
+		Event
+		Event listener
+Response.Write()
+asp label
+Server controls
+
+
 Sept 3:
 HTML
 CSS
@@ -67,4 +87,25 @@ SQL chaining
 Connection String/SQL Query wizard
 HTML encoding
 Data grid
+
+
+Oct. 24.
+SQL injection 
+- preventing with parameters
+-stored procedure queries also need to be paramaterized
+
+Cross scripting attacks
+-entering scripts inside text box or some sort of form control
+-HTML encoding. Not storing native script.
+
+XML 
+
+Server.MapPath
+
+Bind Data
+
+AJAX
+-Separate thread
+-ScripctManager
+-UpdatePanel
 
