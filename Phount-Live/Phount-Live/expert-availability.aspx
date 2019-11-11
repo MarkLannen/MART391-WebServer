@@ -40,9 +40,11 @@
 
         <div class="container col-md-8 ">
             <h1 class="h3"> < Google calendar goes here ></h1>
-            <form id="expertExperienceForm" runat="server" class="">
+            <form id="expertAvailabilityForm" runat="server">
                 <div class="row justify-content-center ">
+                    <asp:Button type="submit" runat="server" class="btn red-submit-button my-5" Text="Submit and Add Availability"></asp:Button>
                     <asp:Button type="submit" runat="server" class="btn submit-view-profile-button my-5" Text="Submit and view profile"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button my-5" Text="Submit and Add Availability"></asp:Button>
                 </div>
             </form>
         </div>

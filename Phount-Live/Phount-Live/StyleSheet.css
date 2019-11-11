@@ -201,9 +201,15 @@ h1 {
     width: 300px;
 }
 
-/*Expert availability page*/
+.red-submit-button {
+    background-color: #C7332E;
+    color: white;
+    width: 300px;
+}
 
+/*Expert availability page*/
 .submit-view-profile-button {
     background-color: #C7332E;
-
+    color: white;
+    width: 300px;
 }
