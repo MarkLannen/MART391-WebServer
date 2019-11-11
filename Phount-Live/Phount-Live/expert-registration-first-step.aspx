@@ -92,9 +92,8 @@
                         <asp:Textbox runat="server" type="text" class="form-control" id="txtNewExpertiseArea" placeholder="Create a new area of expertise"></asp:Textbox>
                     </div>
                     <div class="col-6">
-                        <asp:Button type="submit" runat="server" class="btn btn-large" Text="Submit and Add Specific Skills"></asp:Button>
+                        <asp:Button type="submit" runat="server" class="btn btn-large" Text="Submit and Add Specific Skills" OnClick="btn_Expert_Skill_Registration"></asp:Button>
                     </div>
-                  <%--<div class="col-6"></div>--%>
                 </div>
             </form>
 
