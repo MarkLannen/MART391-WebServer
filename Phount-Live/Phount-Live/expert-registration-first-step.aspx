@@ -80,20 +80,19 @@
                 <div class="row">
                     <div class="form-group col-md-6 col-12">
                         <label for="expertCategory">Select an existing area of expertise</label>
-                        <select class="form-control" id="expertCategory">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                          <asp:DropDownList runat="server" class="form-control" id="expertCategory">
+                            <asp:ListItem Value="" Text="">1</asp:ListItem>
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>1</asp:ListItem>
+                         </asp:DropDownList>                        
                     </div>
                     <div class="form-group col-md-6 col-12">
                         <label for="formGroupExampleInput">Was your area of expertise not listed?</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
+                        <asp:Textbox runat="server" type="text" class="form-control" id="txtNewExpertiseArea" placeholder="Create a new area of expertise"></asp:Textbox>
                     </div>
                     <div class="col-6">
-                        <input class="btn btn-large" id="expert-area-submission" type="button" value="Submit and Add Specific Skills">
+                        <asp:Button type="submit" runat="server" class="btn btn-large" Text="Submit and Add Specific Skills"></asp:Button>
                     </div>
                   <%--<div class="col-6"></div>--%>
                 </div>

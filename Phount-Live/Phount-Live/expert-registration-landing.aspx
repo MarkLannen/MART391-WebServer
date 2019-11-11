@@ -46,12 +46,12 @@
                 <form id="expertRegistrationForm" runat="server" class="">
                     <div class="form-group">
                         <label id="expertUsernameText" for="expertUsername">Username</label>
-                        <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Username"></asp:Textbox> 
+                        <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
                         <small id="usernameHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group">
                         <label id="expertEmailText" for="expertEmail">Email address</label>
-                        <asp:Textbox runat="server" id="txtExpertEmail" type="email" class="form-control registration-element" aria-describedby="emailHelp" placeholder="Enter email"></asp:Textbox> 
+                        <asp:Textbox runat="server" id="txtExpertEmail" type="email" class="form-control registration-element" aria-describedby="passwordHelp" placeholder="Enter email"></asp:Textbox> 
                         <small id="emailHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group mb-5">
