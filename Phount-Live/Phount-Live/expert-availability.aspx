@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-experience.aspx.cs" Inherits="expert_experience" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-availability.aspx.cs" Inherits="expert_availability" %>
 
 <!DOCTYPE html>
 
@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="stylesheet" href="StyleSheet.css"/>
 
     <!--    Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Expert Experience</title>
+    <title>Expert Availability</title>
 </head>
 
 <body>
@@ -29,40 +29,20 @@
         </div>
     </nav>
 
-    <section id="expert-skills-section" class="my-5">
+    <section id="expert-skills-section" class="my-5 text-center">
+
         <div class="container col-md-8">
             <div class="row justify-content-center mx-3">
-                <img src="graphics/Phount-3-red-fill-35px.svg" class="mr-3" height="35px" width="35px" alt=""/>
-                <h4 class="mb-5">What is your experience level?</h4>
+                <img src="graphics/Phount-4-red-fill-35px.svg" class="mr-3" height="35px" width="35px" alt=""/>
+                <h4 class="mb-5">What is your availability?</h4>
             </div>
+        </div>
+
+        <div class="container col-md-8 ">
+            <h1 class="h3"> < Google calendar goes here ></h1>
             <form id="expertExperienceForm" runat="server" class="">
-                <div class="row justify-content-center">
-                    <div class="form-group col-12 col-sm-10 col-md-8 col-lg-6">
-                        <label for="skillCategory">Years of experience</label>
-                        <asp:DropDownList runat="server" class="form-control" ID="skillCategory">
-                            <asp:ListItem Value="" Text="">1</asp:ListItem>
-                            <asp:ListItem Value="" Text="">2</asp:ListItem>
-                            <asp:ListItem Value="" Text="">3</asp:ListItem>
-                            <asp:ListItem Value="" Text="">4</asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="form-group col-10 col-md-8 col-lg-6">
-                        <label for="expertExperienceTextArea">Describe your experience</label>
-                        <asp:Textbox runat="server" class="form-control" id="expertExperienceTextArea" TextMode="MultiLine" rows="3"></asp:Textbox>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="form-group col-10 col-md-8 col-lg-6">
-                        <label for="expertWorkExperienceTextArea">Describe any relevant employment history</label>
-                        <asp:Textbox runat="server" class="form-control" id="expertWorkExperienceTextArea" TextMode="MultiLine" rows="3"></asp:Textbox>
-                    </div>
-                </div>
-
                 <div class="row justify-content-center ">
-                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button" Text="Submit and Add Availability"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn submit-view-profile-button my-5" Text="Submit and view profile"></asp:Button>
                 </div>
             </form>
         </div>
