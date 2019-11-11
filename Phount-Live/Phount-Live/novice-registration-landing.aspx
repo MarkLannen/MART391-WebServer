@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-registration-landing.aspx.cs" Inherits="expert_registration_landing" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="novice-registration-landing.aspx.cs" Inherits="novice_registration_landing" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Expert Registration</title>
+    <title>Novice Registration</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
@@ -31,7 +31,7 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as an expert</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as a novice</h1>
         </div>
             <div class="row justify-content-center">
                 <form id="expertRegistrationForm" runat="server" class="">
@@ -50,7 +50,7 @@
                         <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
                     </div>
                     <div class="">
-                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register!" OnClick="btn_Expert_Registration"></asp:Button>
+                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register!" OnClick="btn_Novice_Registration"></asp:Button>
                     </div>
 
                 </form>
