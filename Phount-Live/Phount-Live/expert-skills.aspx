@@ -35,41 +35,40 @@
                 <img src="graphics/Phount-2-red-fill-35px.svg" class="mr-3" height="35px" width="35px" alt="" />
                 <h4 class="mb-5">Let's get more specific</h4>
             </div>
-            <form id="expertRegistrationFirstStepForm" runat="server" class="">
+            <form id="expertRegistrationSkillsForm" runat="server" class="">
                 <div class="row justify-content-center">
                     <div class="form-group col-12 col-sm-10 col-md-8 col-lg-6">
                         <label for="skillCategory">Select your specific skills from the dropdown menu or add a new skill</label>
-                        <select class="form-control" id="skillCategory">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                        <asp:DropDownList runat="server" class="form-control" id="skillCategory">
+                            <asp:ListItem Value="" Text="">1</asp:ListItem>
+                            <asp:ListItem Value="" Text="">2</asp:ListItem>
+                            <asp:ListItem Value="" Text="">3</asp:ListItem>
+                            <asp:ListItem Value="" Text="">4</asp:ListItem>
+                        </asp:DropDownList>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="input-group mb-3 add-skills-buttons col-12 col-sm-10 col-md-8 col-lg-6">
-                        <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <asp:Textbox runat="server" type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2"></asp:Textbox>
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
+                            <asp:Button type="submit" runat="server" class="btn btn-outline-secondary add-new-skill-button" Text="Add"></asp:Button>
                         </div>
                     </div>
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="input-group mb-3 add-skills-buttons col-12 col-sm-10 col-md-8 col-lg-6">
-                        <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <asp:Textbox runat="server" type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2"></asp:Textbox>
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
+                            <asp:Button type="submit" runat="server" class="btn btn-outline-secondary add-new-skill-button" Text="Add"></asp:Button>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                 <div class="row justify-content-center">
                     <div class="input-group mb-3 add-skills-buttons col-12 col-sm-10 col-md-8 col-lg-6">
-                        <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <asp:Textbox runat="server" type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2"></asp:Textbox>
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
+                            <asp:Button type="submit" runat="server" class="btn btn-outline-secondary add-new-skill-button" Text="Add"></asp:Button>
                         </div>
                     </div>
                 </div>
@@ -77,7 +76,7 @@
                     <button type="button" class="btn add-more-skills-button">Add More Skills</button>
                 </div>
                 <div class="row justify-content-center ">
-                    <button type="button" class="btn submit-add-experience-button">Submit and Add Experience</button>
+                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button" Text="Submit and Add Experience"></asp:Button>
                 </div>
             </form>
         </div>
