@@ -40,7 +40,7 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br>as an expert</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as an expert</h1>
         </div>
             <div class="row justify-content-center">
                 <form id="expertRegistrationForm" runat="server" class="">
