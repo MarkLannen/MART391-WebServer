@@ -40,26 +40,26 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create an account to connect<br> with an expert</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br>as an expert</h1>
         </div>
             <div class="row justify-content-center">
-                <form class="">
+                <form id="expertRegistrationForm" runat="server" class="">
                     <div class="form-group">
                         <label id="expertUsernameText" for="expertUsername">Username</label>
-                        <input type="email" class="form-control registration-element" id="expertUsername" aria-describedby="emailHelp" placeholder="Enter Username">
+                        <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Username"></asp:Textbox> 
                         <small id="usernameHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group">
                         <label id="expertEmailText" for="expertEmail">Email address</label>
-                        <input type="email" class="form-control registration-element" id="expertEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <asp:Textbox runat="server" id="txtExpertEmail" type="email" class="form-control registration-element" aria-describedby="emailHelp" placeholder="Enter email"></asp:Textbox> 
                         <small id="emailHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group mb-5">
                         <label id="expertPasswordText" for="expertPassword">Password</label>
-                        <input type="password" class="form-control registration-element" id="expertPassword" placeholder="Password">
+                        <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
                     </div>
                     <div class="">
-                        <button type="submit" class="btn btn-light registration-element register-button">Register!</button>
+                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register!" OnClick="btn_Expert_Registration"></asp:Button>
                     </div>
 
                 </form>
