@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
- <!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -49,13 +49,13 @@
     <!--            Category banner-->
     <section id="categories-profiles-section">
         <div class="container">
-           
+
             <div class="card my-5">
                 <div class="row">
                     <div class="col-md-4 d-flex justify-content-center">
                         <div class="card-header text-center border-0 bg-white">
-                            <img src="img/carpenter_portrait-175px.jpg" class="img-fluid rounded-circle" alt=""><br>
-                            <button type="button" class="btn btn-sm mt-3 d-inline-block justify-content-center button-connect">Connect</button>
+                            <img src="img/carpenter_portrait-175px.jpg" class="img-fluid rounded-circle my-4" alt=""><br>
+                            
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -96,56 +96,6 @@
                     </div>
                 </div>
             </div>
-
-            
-
-            <div class="card my-5">
-                <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card-header text-center border-0 bg-white">
-                            <img src="img/carpenter_portrait-175px.jpg" class="img-fluid rounded-circle" alt=""><br>
-                            <button type="button" class="btn btn-sm mt-3 d-inline-block justify-content-center button-connect">Connect</button>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body px-2">
-                            <div class="d-flex flex-row">
-                                <span class="card-title category-profile-card-title align-items-center mr-3">Expert's Name</span>
-                                <span class="expert-rating mr-3 mt-2">4.0</span>
-                                <div class="star-rating mt-2">
-                                    <span>&#x2605;</span>
-                                    <span>&#x2605;</span>
-                                    <span>&#x2605;</span>
-                                    <span>&#x2605;</span>
-                                    <span>&#9734;</span>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-row">
-                                <div>
-                                    <button type="button" class="btn btn-sm mb-3 btn-info">Carpentry</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Windows</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Trim</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Doors</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Patios/Decks</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Finish</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Framing</button>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-row">
-                                <div>
-                                    <button type="button" class="btn btn-sm mb-3 btn-info">Flooring</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Hardwood Refinishing</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Manufactured</button>
-                                    <button type="button" class="btn btn-sm mb-3 btn-outline-secondary">Installation</button>
-                                </div>
-                            </div>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur at, beatae cum iste nam nemo neque, non repudiandae sed veniam?</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
