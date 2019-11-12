@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-4 d-flex justify-content-center">
                         <div class="card-header text-center border-0 bg-white">
-                            <img src="img/carpenter_portrait-175px.jpg" class="img-fluid rounded-circle my-4" alt=""><br>
+                            <img src="img/add_image-175px.png" class="img-fluid rounded-circle my-4" alt=""><br>
                             
                         </div>
                     </div>
