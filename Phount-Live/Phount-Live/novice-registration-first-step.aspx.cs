@@ -11,4 +11,8 @@ public partial class novice_registration_first_step : System.Web.UI.Page
     {
 
     }
+    protected void btn_Novice_Skill_Registration(object sender, EventArgs e)
+    {
+
+    }
 }

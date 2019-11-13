@@ -83,7 +83,7 @@
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
                     </div>
                     <div class="col-6">
-                        <input class="btn btn-large" id="expert-area-submission" type="button" value="Submit and Add Specific Skills">
+                        <asp:Button type="submit" runat="server" Text="Submit and Add Specific Skills" OnClick="btn_Novice_Skill_Registration"></asp:Button>
                     </div>
                 </div>
             </form>
