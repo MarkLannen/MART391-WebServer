@@ -77,7 +77,7 @@ Then create a class for each table. Ex: User table - class that UPDATES users, I
 
 Start by creating 1 class for Users that generically does all the updates, inserts, deletes etc... 
 
-
+w
 Oct. 10: 
 Security
 Cross scripting
@@ -109,3 +109,29 @@ AJAX
 -ScripctManager
 -UpdatePanel
 
+Oct. 29.
+Deploying
+DNS 
+FTP 
+Connecting database to server 26:00
+
+Nov. 12
+Performance
+	Measuring Response Time
+	Stability
+	User experience
+	Speed
+	CSS stylesheets 
+	minify
+	stored procedures are pre-compiled
+	CDN pros and cons
+	Don't do client-side redirects. Use server.transfer instead
+	Try - Catch - Finally
+	Don't do unecessary PostBacks!
+latency vs bandwidth
+Final presentation
+Optimization - client side validation
+Ajax
+NuGet Package Manager
+Ajax Calendar Extension
+Visual Studio Package Manager
