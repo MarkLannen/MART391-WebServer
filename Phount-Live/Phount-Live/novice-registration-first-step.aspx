@@ -63,7 +63,7 @@
     <section class="mb-5">
         <div class="container">
             <div>
-                <img src="graphics/Phount-1-red-fill-35px.svg" class="mb-1" height="35px" width="35px" alt=""></div>
+                <img src="graphics/Phount-1-red-fill-35px.svg" class="mb-1" height="35px" width="35px" alt=""/></div>
             <h4 class="mb-5">Let’s start with an area of expertise you need help with</h4>
             <form id="noviceRegistrationFirstStepForm" runat="server" class="">
                 <div class="row">
@@ -80,10 +80,10 @@
                     </div>
                     <div class="form-group col-md-6 col-12">
                         <label for="formGroupExampleInput">Was your area of expertise not listed?</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
+                        <asp:Textbox runat="server" type="text" class="form-control" id="newExpertiseInput" placeholder="Create a new area of expertise"></asp:Textbox>
                     </div>
                     <div class="col-6">
-                        <asp:Button type="submit" runat="server" Text="Submit and Add Specific Skills" OnClick="btn_Novice_Skill_Registration"></asp:Button>
+                        <asp:Button type="submit" runat="server" class="btn btn-large red-submit-button" Text="Submit and Add Specific Skills" OnClick="btn_Novice_Skill_Registration"></asp:Button>
                     </div>
                 </div>
             </form>

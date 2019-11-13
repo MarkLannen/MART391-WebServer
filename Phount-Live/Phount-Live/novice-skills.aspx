@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-skills.aspx.cs" Inherits="expert_skills" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="novice-skills.aspx.cs" Inherits="novice_skills" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet" />
     <!--    Custom JavaScript-->
 
-    <title>Expert Skills</title>
+    <title>Novice Skills</title>
 </head>
 
 <body>
@@ -73,10 +73,10 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mb-5">
-                    <asp:Button type="submit" runat="server" class="btn add-more-skills-button" Text="Add More Skills"></asp:Button>
+                     <asp:Button type="submit" runat="server" class="btn add-more-skills-button" Text="Add More Skills"></asp:Button>
                 </div>
                 <div class="row justify-content-center ">
-                   <asp:Button type="submit" runat="server" class="btn red-submit-button" Text="Submit and Add Experience"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn red-submit-button" Text="Submit and Add Experience"></asp:Button>
                 </div>
             </form>
         </div>
