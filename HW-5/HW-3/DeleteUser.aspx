@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="mt-3">
-                    <asp:Button ID="btnSubmit" runat="server" class="btn btn-primary btn-lg" Text="Delete" OnClick="btnSubmit_Click"/>
+                    <asp:Button ID="btnSubmit" runat="server" class="btn btn-primary btn-lg" Text="Delete" OnClientClick="return confirm('Are you sure you want to delete this event?')" OnClick="btnSubmit_Click"/>
                 </div>
           </div>
      </form>
