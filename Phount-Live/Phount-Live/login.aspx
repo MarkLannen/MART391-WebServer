@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-registration-landing.aspx.cs" Inherits="expert_registration_landing" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="login" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Expert Registration</title>
+    <title>Login</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
@@ -31,7 +31,7 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as an expert</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Enter your username and <br />password to login</h1>
         </div>
             <div class="row justify-content-center">
                 <form id="expertRegistrationForm" runat="server" class="">
@@ -40,17 +40,13 @@
                         <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
                         <small id="usernameHelp" class="form-text text-muted"></small>
                     </div>
-                    <div class="form-group">
-                        <label id="expertEmailText" for="expertEmail">Email address</label>
-                        <asp:Textbox runat="server" id="txtExpertEmail" type="email" class="form-control registration-element" aria-describedby="passwordHelp" placeholder="Enter email"></asp:Textbox> 
-                        <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
+                    
                     <div class="form-group mb-5">
                         <label id="expertPasswordText" for="expertPassword">Password</label>
                         <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
                     </div>
                     <div class="">
-                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register!" OnClick="btn_Expert_Registration"></asp:Button>
+                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Login" OnClick="btn_login"></asp:Button>
                     </div>
 
                 </form>
@@ -147,7 +143,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script type="text/javascript" src="scripts.js"></script>
-
-
-</body>
-</html>
