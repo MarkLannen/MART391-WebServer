@@ -1,0 +1,5 @@
+Access this database through sql manager
+
+sq mgs - connect - database engine - dropdown: saffron.arvixe.com, authentication - sql server. user name: MarkLannen - password: test123
+
+michael is creating database called: MarkLannen. password: test123.

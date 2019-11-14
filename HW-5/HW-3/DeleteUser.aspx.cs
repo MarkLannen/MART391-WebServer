@@ -13,7 +13,7 @@ public partial class DeleteUser : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        
+
         string userName = txtUserName.Text;
         
         Users myUser = new Users(); // create instance of class
