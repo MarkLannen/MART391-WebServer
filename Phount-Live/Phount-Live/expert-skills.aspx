@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
         <div class="container-fluid">
-            <a class="navbar-brand Sanchez" href="#">Phount</a>
+            <a class="navbar-brand Sanchez" href="index.html">Phount</a>
         </div>
     </nav>
 
