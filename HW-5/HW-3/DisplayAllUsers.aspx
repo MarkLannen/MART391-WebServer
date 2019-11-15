@@ -24,11 +24,7 @@
             </form>
            </div>
         </div>
-       <asp:label runat="server" text="" ID="userTable"></asp:label>
-
-
-    
-      
+       <asp:label runat="server" text="" ID="userTable"></asp:label>   
     
 </div>  
 </body>

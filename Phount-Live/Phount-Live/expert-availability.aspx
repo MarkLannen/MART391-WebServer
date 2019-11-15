@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
         <div class="container-fluid">
-            <a class="navbar-brand Sanchez" href="#">Phount</a>
+            <a class="navbar-brand Sanchez" href="index.html">Phount</a>
         </div>
     </nav>
 
@@ -42,9 +42,8 @@
             <h1 class="h3"> < Google calendar goes here ></h1>
             <form id="expertAvailabilityForm" runat="server">
                 <div class="row justify-content-center ">
-                    <asp:Button type="submit" runat="server" class="btn red-submit-button my-5" Text="Submit and Add Availability"></asp:Button>
-                    <asp:Button type="submit" runat="server" class="btn submit-view-profile-button my-5" Text="Submit and view profile"></asp:Button>
-                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button my-5" Text="Submit and Add Availability"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn red-submit-button my-5" Text="Submit and View Profile"></asp:Button>
+                    
                 </div>
             </form>
         </div>
