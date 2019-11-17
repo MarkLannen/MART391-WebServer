@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="row justify-content-center ">
-                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button" Text="Submit and Add Availability"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn submit-add-experience-button" Text="Submit and View Your Profile" OnClick="btn_Expert_Profile"></asp:Button>
                 </div>
             </form>
         </div>

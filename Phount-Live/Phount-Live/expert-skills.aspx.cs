@@ -9,6 +9,11 @@ public partial class expert_skills : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        //Server.Transfer("/expert-experience.aspx");
+    }
 
+    protected void btn_Expert_Experience(object sender, EventArgs e)
+    {
+        Server.Transfer("/expert-experience.aspx");
     }
 }

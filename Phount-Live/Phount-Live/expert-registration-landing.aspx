@@ -50,7 +50,7 @@
                         <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
                     </div>
                     <div class="">
-                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register!" OnClick="btn_Expert_Registration"></asp:Button>
+                        <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register" OnClick="btn_Expert_Registration"></asp:Button>
                     </div>
 
                 </form>

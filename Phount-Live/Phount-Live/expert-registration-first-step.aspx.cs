@@ -14,6 +14,6 @@ public partial class expert_registration_first_step : System.Web.UI.Page
 
     protected void btn_Expert_Skill_Registration(object sender, EventArgs e)
     {
-
+        Server.Transfer("/expert-skills.aspx");
     }
 }

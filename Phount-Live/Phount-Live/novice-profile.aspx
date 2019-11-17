@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="expert-profile.aspx.cs" Inherits="expert_profile" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="novice-profile.aspx.cs" Inherits="novice_profile" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Expert Profile</title>
+    <title>Novice Profile</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 
-                   
+               
             </div>
         </div>
     </nav>
@@ -56,7 +56,7 @@
                     <div class="col-md-8">
                         <div class="card-body px-2">
                             <div class="d-flex flex-row">
-                                <span class="card-title category-profile-card-title align-items-center mr-3">Expert's Name</span>
+                                <span class="card-title category-profile-card-title align-items-center mr-3">Novice's Name</span>
                                 <span class="expert-rating mr-3 mt-2">4.0</span>
                                 <div class="star-rating mt-2">
                                     <span>&#x2605;</span>
@@ -178,3 +178,4 @@
     <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
+
