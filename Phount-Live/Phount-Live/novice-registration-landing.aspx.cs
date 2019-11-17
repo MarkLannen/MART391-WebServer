@@ -12,8 +12,10 @@ public partial class novice_registration_landing : System.Web.UI.Page
 
     }
 
+   
     protected void btn_Novice_Registration(object sender, EventArgs e)
     {
-
+        Server.Transfer("/novice-registration-first-step.aspx");
     }
+
 }

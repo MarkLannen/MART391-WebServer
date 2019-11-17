@@ -14,6 +14,6 @@ public partial class novice_skills : System.Web.UI.Page
 
     protected void btn_Novice_Skills_Submit(object sender, EventArgs e)
     {
-
+        Server.Transfer("/novice-profile.aspx");
     }
 }

@@ -76,7 +76,7 @@
                      <asp:Button type="submit" runat="server" class="btn add-more-skills-button" Text="Add More Skills"></asp:Button>
                 </div>
                 <div class="row justify-content-center ">
-                    <asp:Button type="submit" runat="server" class="btn red-submit-button" Text="Submit and Add Experience" OnClick="btn_Novice_Skills_Submit"></asp:Button>
+                    <asp:Button type="submit" runat="server" class="btn red-submit-button" Text="Submit and View Profile" OnClick="btn_Novice_Skills_Submit"></asp:Button>
                 </div>
             </form>
         </div>
