@@ -12,4 +12,14 @@ public partial class DisplayEverything : System.Web.UI.Page
 
     }
 
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        Users myUsers = new Users();
+        string result = myUsers.getAllUsers();
+
+        userTable.Text = result;
+
+
+    }
+
 }

@@ -47,6 +47,8 @@ Initial c# info
 
 
 Sept. 17:
+Create sql tables
+varbinary for password - min. 31:00.
 SQL queries
 SELECT
 INSERT
@@ -55,7 +57,7 @@ DELETE
 INNER JOIN
 WHERE 
 ORDER BY
-Create sql tables
+
 
 
 Sept. 19:
