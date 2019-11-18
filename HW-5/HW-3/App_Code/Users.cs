@@ -123,4 +123,29 @@ public class Users
 
         return rows;
     }
+
+
+    public string displayUserAndAttributes()
+    {
+        DBManager myDBManager = new DBManager();
+
+        string myQuery = "spSelectAllUsers";
+
+        SqlParameter[] myParameters = new SqlParameter[0];
+
+        DataSet myDataSet = myDBManager.createDataSet(myQuery, myParameters);
+
+        string finalResult = "";
+
+        for (int i = 0; i < myDataSet.Tables[0].Rows.Count; i++)
+        {
+            finalResult += "<tr><td>" + myDataSet.Tables[0].Rows[i]["firstName"] + "</td> " + "<td>" + myDataSet.Tables[0].Rows[i]["lastName"] + "</td> " +
+            "<td> " + myDataSet.Tables[0].Rows[i]["email"] + "</td>" + "<td> " + myDataSet.Tables[0].Rows[i]["phoneNumber"] + "</td>" +
+            "<td> " + myDataSet.Tables[0].Rows[i]["userName"] + "</td> " + myDataSet.Tables[0].Rows[i]["password"] + "</td></tr>" + "<br>";
+        }
+        return finalResult;
+    }
+
+
+
 }
