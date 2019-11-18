@@ -125,14 +125,14 @@ public class Users
     }
 
 
-    public string displayUserAndAttributes()
+     public string displayUserAndAttributes()
     {
         DBManager myDBManager = new DBManager();
-
-        string myQuery = "spSelectAllUsers";
+        
+        string myQuery = "spDisplayUserAndAttributes";
 
         SqlParameter[] myParameters = new SqlParameter[0];
-
+       
         DataSet myDataSet = myDBManager.createDataSet(myQuery, myParameters);
 
         string finalResult = "";
