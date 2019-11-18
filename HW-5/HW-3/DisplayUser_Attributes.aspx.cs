@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class DisplayEverything : System.Web.UI.Page
+public partial class DisplayUser_Attributes : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -15,7 +15,7 @@ public partial class DisplayEverything : System.Web.UI.Page
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
         Users myUsers = new Users();
-        string result = myUsers.displayUserAndAttributes();
+        string result = myUsers.DisplayUserAndAttributes();
 
         userTable.Text = result;
 
