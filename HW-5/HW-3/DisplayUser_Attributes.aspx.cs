@@ -15,10 +15,10 @@ public partial class DisplayUser_Attributes : System.Web.UI.Page
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
         Users myUsers = new Users();
-        string result = myUsers.DisplayUserAndAttributes();
+        int userId = Int32.Parse(txtUserID.Text);
+        string result = myUsers.DisplayUserAndAttributes(userId);
 
         userTable.Text = result;
-
 
     }
 

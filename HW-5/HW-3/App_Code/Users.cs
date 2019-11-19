@@ -12,7 +12,7 @@ using System.Web;
 /// </summary>
 public class Users
 {
-    private SqlDbType userID;
+    private SqlDbType UserID;
     private object myDataSet;
 
     public String getSpecificUser(int UserID)
@@ -125,14 +125,14 @@ public class Users
     }
 
 
-     public string DisplayUserAndAttributes()
+     public string DisplayUserAndAttributes(int UserID)
     {
         DBManager myDBManager = new DBManager();
         
         string myQuery = "spDisplayUserAndAttributes";
 
         SqlParameter[] myParameters = new SqlParameter[1];
-        myParameters[0] = new SqlParameter("userID", userID);
+        myParameters[0] = new SqlParameter("userID", UserID);
 
         DataSet myDataSet = myDBManager.createDataSet(myQuery, myParameters);
 
@@ -142,7 +142,10 @@ public class Users
         {
             finalResult += "<tr><td>" + myDataSet.Tables[0].Rows[i]["firstName"] + "</td> " + "<td>" + myDataSet.Tables[0].Rows[i]["lastName"] + "</td> " +
             "<td> " + myDataSet.Tables[0].Rows[i]["email"] + "</td>" + "<td> " + myDataSet.Tables[0].Rows[i]["phoneNumber"] + "</td>" +
-            "<td> " + myDataSet.Tables[0].Rows[i]["userName"] + "</td> " + myDataSet.Tables[0].Rows[i]["password"] + "</td></tr>" + "<br>";
+            "<td> " + myDataSet.Tables[0].Rows[i]["userName"] + "</td> " + myDataSet.Tables[0].Rows[i]["password"] + "</td> " + "<td>" + myDataSet.Tables[0].Rows[i]["skinName"] + "</td>" + " " + "<td>" + myDataSet.Tables[0].Rows[i]["lootName"] + " " + "</td>" + "<td>" + myDataSet.Tables[0].Rows[i]["Cost"] + " " + "</td>" +
+
+
+            "</tr>" + "<br>";
         }
         return finalResult;
     }
