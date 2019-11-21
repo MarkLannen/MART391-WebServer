@@ -78,8 +78,7 @@
                     <div class="">
                         <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register" OnClick="btn_Novice_Registration"></asp:Button>
                     </div>
-                    </div>
-
+                    
             </form> 
         </div>
     </section>
