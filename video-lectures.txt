@@ -137,3 +137,16 @@ Ajax
 NuGet Package Manager
 Ajax Calendar Extension
 Visual Studio Package Manager
+
+Nov. 19
+
+Explanation of project presentation.
+Testing
+	Details of unit testing/use cases etc.
+	Testing optimization in a deployment
+Alpha testing	
+	Small group - usually known by developer.
+Test cases
+	Very important to highlight this in the final presentation
+Unit test 
+	Not so important for final presentation

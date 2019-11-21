@@ -155,7 +155,7 @@ h1 {
     width: 300px;
 }
 
-#expertUsernameText {
+.registration-text {
     color: white;
 }
 
@@ -163,7 +163,7 @@ h1 {
     color: white;
 }
 
-#expertPasswordText {
+#expertPasswordText novicePasswordText {
     color: white;
 }
 
