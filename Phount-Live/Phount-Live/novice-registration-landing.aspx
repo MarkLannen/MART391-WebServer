@@ -31,11 +31,11 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as a novice</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register as a novice</h1>
         </div>
             <div class="row justify-content-center">
-                <form id="expertRegistrationForm" runat="server" class="">
-                    <div class="row"> 
+            <form id="expertRegistrationForm" runat="server" class="">
+                    <div class="row "> 
                         <div class="form-group col-md-6">
                             <label id="noviceFirstNameText" class="text-white">First Name</label>
                             <asp:Textbox runat="server" id="txtFirstName" class="form-control registration-element"  aria-describedby="firstNameHelp" placeholder="Enter First Name"></asp:Textbox> 
@@ -80,10 +80,9 @@
                     </div>
                     </div>
 
-                </form>
-            </div>
-    </div>
-</section>
+            </form> 
+        </div>
+    </section>
 
 
 
@@ -177,9 +176,5 @@
 
 
 
-    <%--<form id="form1" runat="server">
-        <div>
-        </div>
-    </form>--%>
 </body>
 </html>
