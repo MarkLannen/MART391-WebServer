@@ -35,6 +35,35 @@
         </div>
             <div class="row justify-content-center">
             <form id="expertRegistrationForm" runat="server" class="">
+
+                 <div class="row"> 
+                        <div class="form-group col-md-6">
+                            <label id="noviceUsernameText" for="expertUsername" class="text-white">Username*</label>
+                            <asp:Textbox runat="server" id="Textbox1" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
+                            <small id="usernameHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label id="novicePasswordText" for="expertPassword" class="text-white">Password*</label>
+                            <asp:Textbox runat="server" id="Textbox2" class="form-control registration-element"  aria-describedby="passwordHelp" placeholder="Enter Password"></asp:Textbox> 
+                            <small id="passwordHelp" class="form-text text-muted"></small>
+                        </div>
+                    </div>
+
+
+                 <div class="row"> 
+                     <div class="form-group col-md-6">
+                            <label id="noviceEmailText" class="text-white" for="expertEmail">Email*</label>
+                            <asp:Textbox runat="server" id="Textbox4" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Email"></asp:Textbox> 
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label id="novicePhoneNumberText" class="text-white" for="novicePhoneNumber">Phone Number</label>
+                            <asp:Textbox runat="server" id="Textbox3" class="form-control registration-element"  aria-describedby="phoneNumberHelp" placeholder="Enter Phone Number"></asp:Textbox> 
+                            <small id="phoneNumberHelp" class="form-text text-muted"></small>
+                        </div>
+                        
+                    </div>
+
                     <div class="row "> 
                         <div class="form-group col-md-6">
                             <label id="noviceFirstNameText" class="text-white">First Name</label>
@@ -47,30 +76,8 @@
                             <small id="lastNameHelp" class="form-text text-muted"></small>
                         </div>
                     </div>
-                    <div class="row"> 
-                        <div class="form-group col-md-6">
-                            <label id="novicePhoneNumberText" class="text-white" for="novicePhoneNumber">Phone Number</label>
-                            <asp:Textbox runat="server" id="TextPhoneNumber" class="form-control registration-element"  aria-describedby="phoneNumberHelp" placeholder="Enter Phone Number"></asp:Textbox> 
-                            <small id="phoneNumberHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label id="noviceEmailText" class="text-white" for="expertUsername">Email*</label>
-                            <asp:Textbox runat="server" id="TextEmail" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Email"></asp:Textbox> 
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                        </div>
-                    </div>
-                     <div class="row"> 
-                        <div class="form-group col-md-6">
-                            <label id="noviceUsernameText" for="expertUsername" class="text-white">Username*</label>
-                            <asp:Textbox runat="server" id="TextUserName" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
-                            <small id="usernameHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label id="novicePasswordText" for="expertPassword" class="text-white">Password*</label>
-                            <asp:Textbox runat="server" id="TextPassword" class="form-control registration-element"  aria-describedby="passwordHelp" placeholder="Enter Password"></asp:Textbox> 
-                            <small id="passwordHelp" class="form-text text-muted"></small>
-                        </div>
-                    </div>
+                   
+                   
                    
                     <div class="form-group">
                        
