@@ -36,13 +36,13 @@
             <div class="row justify-content-center">
                 <form id="expertRegistrationForm" runat="server" class="">
                     <div class="form-group">
-                        <label id="expertUsernameText" for="expertUsername">Username</label>
+                        <label id="expertUsernameText" for="expertUsername" class="text-white">Username</label>
                         <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
                         <small id="usernameHelp" class="form-text text-muted"></small>
                     </div>
                     
                     <div class="form-group mb-5">
-                        <label id="expertPasswordText" for="expertPassword">Password</label>
+                        <label id="expertPasswordText" for="expertPassword" class="text-white">Password</label>
                         <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
                     </div>
                     <div class="">

@@ -21,7 +21,7 @@
     <title>Expert Registration</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
+ <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
     <div class="container-fluid">
         <a class="navbar-brand Sanchez" href="index.html">Phount</a>
         
@@ -31,32 +31,57 @@
     <section id="expert-registration-landing-section">
     <div class="container text-center py-5">
         <div class="row justify-content-center">
-            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register<br />as an expert</h1>
+            <h1 id="" class="mb-5 registration-landing-heading">Create a profile to register as an Expert</h1>
         </div>
             <div class="row justify-content-center">
-                <form id="expertRegistrationForm" runat="server" class="">
-                    <div class="form-group">
-                        <label id="expertUsernameText" for="expertUsername">Username</label>
-                        <asp:Textbox runat="server" id="txtExpertUsername" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
-                        <small id="usernameHelp" class="form-text text-muted"></small>
+            <form id="expertRegistrationForm" runat="server" class="">
+                    <div class="row "> 
+                        <div class="form-group col-md-6">
+                            <label id="noviceFirstNameText" class="text-white">First Name</label>
+                            <asp:Textbox runat="server" id="txtFirstName" class="form-control registration-element"  aria-describedby="firstNameHelp" placeholder="Enter First Name"></asp:Textbox> 
+                            <small id="firstNameHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label id="noviceLastNameText" class="text-white">Last Name</label>
+                            <asp:Textbox runat="server" id="txtLastName" class="form-control registration-element"  aria-describedby="lastNameHelp" placeholder="Enter Last Name"></asp:Textbox> 
+                            <small id="lastNameHelp" class="form-text text-muted"></small>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label id="expertEmailText" for="expertEmail">Email address</label>
-                        <asp:Textbox runat="server" id="txtExpertEmail" type="email" class="form-control registration-element" aria-describedby="passwordHelp" placeholder="Enter email"></asp:Textbox> 
-                        <small id="emailHelp" class="form-text text-muted"></small>
+                    <div class="row"> 
+                        <div class="form-group col-md-6">
+                            <label id="novicePhoneNumberText" class="text-white" for="novicePhoneNumber">Phone Number</label>
+                            <asp:Textbox runat="server" id="TextPhoneNumber" class="form-control registration-element"  aria-describedby="phoneNumberHelp" placeholder="Enter Phone Number"></asp:Textbox> 
+                            <small id="phoneNumberHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label id="noviceEmailText" class="text-white" for="expertUsername">Email*</label>
+                            <asp:Textbox runat="server" id="TextEmail" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Email"></asp:Textbox> 
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
                     </div>
-                    <div class="form-group mb-5">
-                        <label id="expertPasswordText" for="expertPassword">Password</label>
-                        <asp:Textbox runat="server" id="txtExpertPassword" type="password" class="form-control registration-element" placeholder="Password"></asp:Textbox>
+                     <div class="row"> 
+                        <div class="form-group col-md-6">
+                            <label id="noviceUsernameText" for="expertUsername" class="text-white">Username*</label>
+                            <asp:Textbox runat="server" id="TextUserName" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
+                            <small id="usernameHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label id="novicePasswordText" for="expertPassword" class="text-white">Password*</label>
+                            <asp:Textbox runat="server" id="TextPassword" class="form-control registration-element"  aria-describedby="passwordHelp" placeholder="Enter Password"></asp:Textbox> 
+                            <small id="passwordHelp" class="form-text text-muted"></small>
+                        </div>
+                    </div>
+                   
+                    <div class="form-group">
+                       
                     </div>
                     <div class="">
                         <asp:Button type="submit" runat="server" class="btn btn-light registration-element register-button" Text="Register" OnClick="btn_Expert_Registration"></asp:Button>
                     </div>
-
-                </form>
-            </div>
-    </div>
-</section>
+                    
+            </form> 
+        </div>
+    </section>
 
 
 
