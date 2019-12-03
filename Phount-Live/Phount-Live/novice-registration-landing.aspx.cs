@@ -20,10 +20,14 @@ public partial class novice_registration_landing : System.Web.UI.Page
         string password = novicePassword.Text;
         string email = noviceEmail.Text;
         string phone = novicePhoneNumber.Text;
-        string firstName = txtFirstName.Text;
-        string lastName = txtLastName.Text;
-        
-        
+        string firstName = noviceFirstName.Text;
+        string lastName = noviceLastName.Text;
+
+        Users myUser = new Users(); // create instance of class
+
+        int rows = myUser.insertUser(userName, password, firstName, lastName, phone, email);
+
+
 
 
         Server.Transfer("/novice-registration-first-step.aspx");

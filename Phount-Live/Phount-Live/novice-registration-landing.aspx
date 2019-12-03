@@ -66,13 +66,13 @@
 
                     <div class="row "> 
                         <div class="form-group col-md-6">
-                            <label id="noviceFirstNameText" class="text-white">First Name</label>
-                            <asp:Textbox runat="server" id="txtFirstName" class="form-control registration-element"  aria-describedby="firstNameHelp" placeholder="Enter First Name"></asp:Textbox> 
+                            <label id="noviceFirstNameText" class="text-white" for="noviceFirstName">First Name</label>
+                            <asp:Textbox runat="server" id="noviceFirstName" class="form-control registration-element"  aria-describedby="firstNameHelp" placeholder="Enter First Name"></asp:Textbox> 
                             <small id="firstNameHelp" class="form-text text-muted"></small>
                         </div>
                         <div class="form-group col-md-6">
-                            <label id="noviceLastNameText" class="text-white">Last Name</label>
-                            <asp:Textbox runat="server" id="txtLastName" class="form-control registration-element"  aria-describedby="lastNameHelp" placeholder="Enter Last Name"></asp:Textbox> 
+                            <label id="noviceLastNameText" class="text-white" for="noviceLastName">Last Name</label>
+                            <asp:Textbox runat="server" id="noviceLastName" class="form-control registration-element"  aria-describedby="lastNameHelp" placeholder="Enter Last Name"></asp:Textbox> 
                             <small id="lastNameHelp" class="form-text text-muted"></small>
                         </div>
                     </div>
