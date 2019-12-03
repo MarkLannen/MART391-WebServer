@@ -39,12 +39,12 @@
                  <div class="row"> 
                         <div class="form-group col-md-6">
                             <label id="noviceUsernameText" for="noviceUsername" class="text-white">Username*</label>
-                            <asp:Textbox runat="server" id="Textbox1" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
+                            <asp:Textbox runat="server" id="noviceUsername" class="form-control registration-element"  aria-describedby="usernameHelp" placeholder="Enter Username"></asp:Textbox> 
                             <small id="usernameHelp" class="form-text text-muted"></small>
                         </div>
                         <div class="form-group col-md-6">
                             <label id="novicePasswordText" for="novicePassword" class="text-white">Password*</label>
-                            <asp:Textbox runat="server" id="Textbox2" class="form-control registration-element"  aria-describedby="passwordHelp" placeholder="Enter Password"></asp:Textbox> 
+                            <asp:Textbox runat="server" id="novicePassword" class="form-control registration-element"  aria-describedby="passwordHelp" placeholder="Enter Password"></asp:Textbox> 
                             <small id="passwordHelp" class="form-text text-muted"></small>
                         </div>
                     </div>
@@ -53,12 +53,12 @@
                  <div class="row"> 
                      <div class="form-group col-md-6">
                             <label id="noviceEmailText" class="text-white" for="noviceEmail">Email*</label>
-                            <asp:Textbox runat="server" id="Textbox4" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Email"></asp:Textbox> 
+                            <asp:Textbox runat="server" id="noviceEmail" class="form-control registration-element"  aria-describedby="emailHelp" placeholder="Enter Email"></asp:Textbox> 
                             <small id="emailHelp" class="form-text text-muted"></small>
                         </div>
                         <div class="form-group col-md-6">
                             <label id="novicePhoneNumberText" class="text-white" for="novicePhoneNumber">Phone Number</label>
-                            <asp:Textbox runat="server" id="Textbox3" class="form-control registration-element"  aria-describedby="phoneNumberHelp" placeholder="Enter Phone Number"></asp:Textbox> 
+                            <asp:Textbox runat="server" id="novicePhoneNumber" class="form-control registration-element"  aria-describedby="phoneNumberHelp" placeholder="Enter Phone Number"></asp:Textbox> 
                             <small id="phoneNumberHelp" class="form-text text-muted"></small>
                         </div>
                         
