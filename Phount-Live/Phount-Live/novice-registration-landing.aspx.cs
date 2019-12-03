@@ -25,12 +25,13 @@ public partial class novice_registration_landing : System.Web.UI.Page
 
         Users myUser = new Users(); // create instance of class
 
-        int rows = myUser.insertUser(userName, password, firstName, lastName, phone, email);
+        int rows = myUser.insertUser(userName, password, email, phone, firstName, lastName);
 
 
+        
+        System.Diagnostics.Debug.WriteLine(rows);
 
-
-        Server.Transfer("/novice-registration-first-step.aspx");
+        //Server.Transfer("/novice-registration-first-step.aspx");
     }
 
 }
